@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
+import 'antd/dist/antd.css';
+import './index.css';
+
+// import MS_0100 from './pages/MS/MS_0100';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <App />
-  </React.StrictMode>,
+  // </React.StrictMode>
+  ,
   document.getElementById('root')
 );
 

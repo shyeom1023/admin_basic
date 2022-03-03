@@ -1,13 +1,58 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.ant-menu.ant-menu-dark {
+  background-color: #faa65d;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.ant-menu.ant-menu-dark > .ant-menu-item:hover{
+  background-color: #ec364c;
+}
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected{
+  background-color: #ec364c;
+}
+
+.ant-menu-dark.ant-menu-dark .ant-menu-item-selected{
+  background-color: #ec364c;
+}
+
+.ant-layout-sider-trigger {
+  background: #fff;
+  color: #000;
+}
+
+.header {
+  background: #faa65d;
+}
+
+.logo {
+  float: left;
+  /* width: 146px;
+  height: 31px; */
+  /* margin: 16px 54px 16px 0; */
+  width: 100%;
+  height: 52px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.login {
+  float: right;
+  /* margin: 16px 54px 16px 0; */
+  /* background: rgba(255, 255, 255, 0.3); */
+}
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #ec364c;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+
+.ant-menu-sub.ant-menu-inline {
+  padding: 0;
+  background: #ffffff;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
 }
