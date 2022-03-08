@@ -1,52 +1,25 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
+import ButtonExample from '../components/button/example/ButtonExample';
+import CardExample from '../components/card/example/CardExample';
+import InputExample from '../components/input/example/InputExample';
+import TableExample from '../components/table/example/TableExample';
+import ExcelJsonTransFormation from './ExcelJsonTransFormation';
 import Login from './login/Login';
 
 const Router = () => {
     return (
         <div>
-            <BrowserRouter>
-                <Routes>
-                    <Route path={'/'} element={<Login />} />
-                </Routes>
-            </BrowserRouter>
+            <Routes>
+                <Route path={'/'} element={<Login />} />
+                <Route path={'/excel'} element={<ExcelJsonTransFormation />} />
+                <Route path={'/button'} element={<ButtonExample />} />
+                <Route path={'/table'} element={<TableExample />} />
+                <Route path={'/input'} element={<InputExample />} />
+                <Route path={'/card'} element={<CardExample />} />
+            </Routes>
         </div>
     );
 };
 
 export default Router;
-
-/*
-import React from 'react';
-import { Route, Routes as Switch } from "react-router-dom";
-import Complete from '../pages/Complete.js';
-import Consent from '../pages/Consent.js';
-import NewPassword from '../pages/NewPassword.js';
-import NewPasswordConfirm from '../pages/NewPasswordConfirm.js';
-import Password from '../pages/Password.js';
-import ResetPassword from '../pages/ResetPassword.js';
-import ResetPasswordConfirm from '../pages/ResetPasswordConfirm.js';
-import SmsCerti from '../pages/SmsCerti.js';
-
-const Container = () => {
-    
-    return (
-        <div>
-            <Switch>            
-                <Route path={'/Complete'} element={<Complete />} />
-                <Route path={'/Consent'} element={<Consent />} />
-                <Route path={'/NewPassword'} element={<NewPassword />} />
-                <Route path={'/NewPasswordConfirm'} element={<NewPasswordConfirm />} />
-                <Route path={'/Password'} element={<Password />} />
-                <Route path={'/ResetPassword'} element={<ResetPassword />} />
-                <Route path={'/ResetPasswordConfirm'} element={<ResetPasswordConfirm />} />
-                <Route path={'/SmsCerti'} element={<SmsCerti />} />
-                <Route path={'/'} element={<SmsCerti />} />
-            </Switch>
-
-        </div>
-    );
-};
-
-export default Container;
-*/
