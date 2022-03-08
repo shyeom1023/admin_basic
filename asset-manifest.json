@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "https://shyeom1023.github.io/admin_basic/static/css/main.dca3df10.chunk.css",
-    "main.js": "https://shyeom1023.github.io/admin_basic/static/js/main.5925d42d.chunk.js",
-    "main.js.map": "https://shyeom1023.github.io/admin_basic/static/js/main.5925d42d.chunk.js.map",
+    "main.js": "https://shyeom1023.github.io/admin_basic/static/js/main.1082d847.chunk.js",
+    "main.js.map": "https://shyeom1023.github.io/admin_basic/static/js/main.1082d847.chunk.js.map",
     "runtime-main.js": "https://shyeom1023.github.io/admin_basic/static/js/runtime-main.1c130628.js",
     "runtime-main.js.map": "https://shyeom1023.github.io/admin_basic/static/js/runtime-main.1c130628.js.map",
     "static/css/2.0ce74623.chunk.css": "https://shyeom1023.github.io/admin_basic/static/css/2.0ce74623.chunk.css",
-    "static/js/2.b4dbab97.chunk.js": "https://shyeom1023.github.io/admin_basic/static/js/2.b4dbab97.chunk.js",
-    "static/js/2.b4dbab97.chunk.js.map": "https://shyeom1023.github.io/admin_basic/static/js/2.b4dbab97.chunk.js.map",
+    "static/js/2.b4e3f443.chunk.js": "https://shyeom1023.github.io/admin_basic/static/js/2.b4e3f443.chunk.js",
+    "static/js/2.b4e3f443.chunk.js.map": "https://shyeom1023.github.io/admin_basic/static/js/2.b4e3f443.chunk.js.map",
     "static/js/3.d26ce5fc.chunk.js": "https://shyeom1023.github.io/admin_basic/static/js/3.d26ce5fc.chunk.js",
     "static/js/3.d26ce5fc.chunk.js.map": "https://shyeom1023.github.io/admin_basic/static/js/3.d26ce5fc.chunk.js.map",
     "index.html": "https://shyeom1023.github.io/admin_basic/index.html",
     "static/css/2.0ce74623.chunk.css.map": "https://shyeom1023.github.io/admin_basic/static/css/2.0ce74623.chunk.css.map",
     "static/css/main.dca3df10.chunk.css.map": "https://shyeom1023.github.io/admin_basic/static/css/main.dca3df10.chunk.css.map",
-    "static/js/2.b4dbab97.chunk.js.LICENSE.txt": "https://shyeom1023.github.io/admin_basic/static/js/2.b4dbab97.chunk.js.LICENSE.txt"
+    "static/js/2.b4e3f443.chunk.js.LICENSE.txt": "https://shyeom1023.github.io/admin_basic/static/js/2.b4e3f443.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1c130628.js",
     "static/css/2.0ce74623.chunk.css",
-    "static/js/2.b4dbab97.chunk.js",
+    "static/js/2.b4e3f443.chunk.js",
     "static/css/main.dca3df10.chunk.css",
-    "static/js/main.5925d42d.chunk.js"
+    "static/js/main.1082d847.chunk.js"
   ]
 }
